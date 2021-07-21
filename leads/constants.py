@@ -1,0 +1,12 @@
+FRESH = 'Fresh'
+CLAIM = 'Claim'
+CONVERTED = 'Converted'
+CANCELLED = 'Cancelled'
+
+
+LEAD_STATUS = (
+    (FRESH, FRESH),
+    (CLAIM, CLAIM),
+    (CONVERTED, CONVERTED),
+    (CANCELLED, CANCELLED)
+)
